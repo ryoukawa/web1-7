@@ -18,7 +18,7 @@ header{
 }
 #main{
   background-color:white;
-  width:calc(100%-200px)
+  width:calc(100%-200px);
     min-width:500px;
     float:left;
 }
@@ -45,10 +45,19 @@ aside{
   background-color:red;
    width:200px;
   float:right;
+  position:relative;
+  top:20px;
+  right:10px;
 }
 footer{
   background-color:green;
   clear:both;
+}
+#good_picture{
+  width:24px;
+    position:absolute;
+   left:50px;
+  top:50px;
 }
 
 
